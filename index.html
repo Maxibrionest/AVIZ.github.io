@@ -15,14 +15,14 @@
 <body>
     <header>
         <nav>
-            <div class="container" style="width: 70%;">
+            <div class="container">
                 <a href="#" id="btn-menu" class="btn-menu"><i class="fas fa-bars" style="color: white; font-size: 22px;"></i></a>
                 <a href="index.html" style="text-decoration: none;"><h1 class="logo" style="color: white; 
                 font-family: Copperplate, Copperplate Gothic Light, fantasy; letter-spacing: 8px; font-size: 25px; display: inline-flex; 
                 margin-left: 10px; align-items: center;"> AVIZ</h1></a>
-                <a href="#" style="float: right; color: white; text-decoration: overline;
+                <a class="suscribe" href="#" style="float: right; color: white; text-decoration: overline;
                     font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 15px;">REGÍSTRATE</a>
-                <a href="#" style="float: right; color: white; text-decoration: overline;
+                <a class="login" href="#" style="float: right; color: white; text-decoration: overline;
                     font-family: Copperplate, Copperplate Gothic Light, fantasy; margin-right: 10px; font-size: 15px;">INICIA SESIÓN</a>
             </div>
         </nav>
@@ -37,6 +37,7 @@
             </div>
         </div>
         <hr class="divider" style="border: 1px solid rgb(58, 58, 58);">
+        <a class="suscribeLoginMobile" href="#"><p>Inicia Sesión / Suscribete</p></a>
         <a href="#mas-reciente" style="text-decoration: none; color: white;"><p style="font-family: Copperplate, Copperplate Gothic Light, fantasy; font-weight: lighter;">Noticias más recientes</p></a>
         <a href="#mas-populares" style="text-decoration: none; color: white;"><p style="font-family: Copperplate, Copperplate Gothic Light, fantasy; font-weight: lighter;">Noticias más populares</p></a>
         <a href="#" style="text-decoration: none; color: white;"><p style="font-family: Copperplate, Copperplate Gothic Light, fantasy; font-weight: lighter;">Catálogo de noticias</p></a>
@@ -51,63 +52,62 @@
     </div>
     <main>
         <section class="banner-index">
-            <div class="contenedor-title-banner text-center" style="top: 15%; left: 10%; background-color: white;">
-                <h5 style="font-family: Copperplate, Copperplate Gothic Light, fantasy; font-weight: bold;">TODAS LAS NOTICIAS EN ESTE SITIO SON REDACTADAS POR NUESTROS PROPIOS PERIODISTAS.</h5>
+            <div class="contenedor-title-banner text-center">
+                <h5 class="postNavbar">TODAS LAS NOTICIAS EN ESTE SITIO SON REDACTADAS POR NUESTROS PROPIOS PERIODISTAS.</h5>
             </div>
-            <div class="row text-center" style="margin-left: 0px; margin-top: 20%; width: 100%;">
+            <div class="fila-banner row text-center">
                 <div class="col-12" style="width: 100%;">
-                    <h3 style="color: black; background-color: rgba(255,255,255,0.600); padding: 30px;">Osananajimi ga Zettai ni Makenai Love Comedy</h3>
-                    <h4 style="color: white; background-color: rgba(0, 0, 0, 0.600); padding: 10px; font-weight: lighter;">el anime del momento que la está rompiendo</h4>
+                    <h3 class="title-banner">Osananajimi ga Zettai ni Makenai Love Comedy</h3>
+                    <h4 class="subtitle-banner">el anime del momento que la está rompiendo</h4>
                     <br>
                     <a href="#"><button class="btn-banner-index">Leer más</button></a>
                 </div>
             </div>
         </section>
         <section class="contenido-index">
-            <div style="padding: 10px; margin-left: 20px;">
-                <h4 style="font-family: Copperplate, Copperplate Gothic Light, fantasy; font-weight: bold;"><i class="fas fa-fire"></i> Noticias más populares</h4>
+            <div class="contenedor-title-popular-section">
+                <h4 class="title-popular-section"><i class="fas fa-fire"></i> Noticias más populares</h4>
             </div>
-            <div class="contenedor-populares container-fluid">
+            <div class="contenedor-populares">
                 <div class="row" style="width: 100%;" id="mas-populares">
                     <div class="col-lg-4 col-12">
-                        <div class="info-populares text-center" style="width: 100%; height: 100%; background-color: black; border: 2px solid black; padding: 50px 130px 50px 130px;">
-                            <h1 style="color: white; Font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif; font-weight: bold;
-                                letter-spacing: 3px; margin-top: 70px;">TODAS LAS NOTICIAS MEJOR VALORADAS POR LOS USUARIOS</h1>
-                            <h3 style="margin-top: 100px; color: white;">APARECERÁN EN ESTA SECCIÓN</h3>
-                            <p style="color: white; margin-top: 50px; font-weight: lighter;">¡Valora y comparte las noticias para continuar trayendo contenido de interés para todos!</p>
+                        <div class="info-populares text-center">
+                            <h1 class="title-populares">TODAS LAS NOTICIAS MEJOR VALORADAS POR LOS USUARIOS</h1>
+                            <h3 class="subtitle-populares">APARECERÁN EN ESTA SECCIÓN</h3>
+                            <p class="subtitle2-populares">¡Valora y comparte las noticias para continuar trayendo contenido de interés para todos!</p>
                         </div>
                     </div>
                     <div class="col-lg-8 col-12">
                         <div class="contenido-populares">
-                            <a href="#" style="text-decoration: none;"><div class="row" style="width: 100%;">
+                            <a href="#" style="text-decoration: none;"><div class="row">
                                 <div class="col-lg-12 col-12 fila-popular">
                                    <div class="text-center mt-5">
                                         <h3>Osananajimi ga Zettai ni Makenai Love Comedy</h3>
                                         <h5>el anime del momento que está arrazando</h5>
                                         <br><br>
-                                        <p style="opacity: 0;">¡Haz click para saber más!</p>
+                                        <p>¡Haz click para saber más!</p>
                                    </div>
                                 </div>
                             </div></a>
                             <br>
-                            <a href="#" style="text-decoration: none;"><div class="row" style="width: 100%;">
+                            <a href="#" style="text-decoration: none;"><div class="row">
                                 <div class="col-12 fila-popular">
                                    <div class="text-center mt-5">
                                         <h3>Osananajimi ga Zettai ni Makenai Love Comedy</h3>
                                         <h5>el anime del momento que está arrazando</h5>
                                         <br><br>
-                                        <p style="opacity: 0;">¡Haz click para saber más!</p>
+                                        <p>¡Haz click para saber más!</p>
                                    </div>
                                 </div>
                             </div></a>
                             <br>
-                            <a href="#" style="text-decoration: none;"><div class="row" style="width: 100%;">
+                            <a href="#" style="text-decoration: none;"><div class="row">
                                 <div class="col-12 fila-popular">
                                    <div class="text-center mt-5">
                                         <h3>Osananajimi ga Zettai ni Makenai Love Comedy</h3>
                                         <h5>el anime del momento que está arrazando</h5>
                                         <br><br>
-                                        <p style="opacity: 0;">¡Haz click para saber más!</p>
+                                        <p>¡Haz click para saber más!</p>
                                    </div>
                                 </div>
                             </div></a>
@@ -118,11 +118,11 @@
             <br>
             <div class="contenedor-nuevos" style="background-color: black; padding: 20px;">
                 <div style="width: 100%;">
-                    <h4 style="font-family: Copperplate, Copperplate Gothic Light, fantasy; font-weight: bold; color: white;"><i class="fas fa-clock"></i> Noticias más recientes</h4>
+                    <h4 class="title-recientes"><i class="fas fa-clock"></i> Noticias más recientes</h4>
                 </div>
                 <br>
                 <div class="row" id="mas-reciente" style="padding: 10px;">
-                    <div class="col-lg-2 col-12">
+                    <div class="col-lg-2 col-12" style="margin-bottom: 12px;">
                         <a href="#" style="text-decoration: none;"><div class="card" style="border: none;">
                             <div class="card-img">
                                 <img src="static/img/IMG-banner-index.png" style="width: 100%; height: auto;">
@@ -136,7 +136,7 @@
                             </div>
                         </div></a>
                     </div>
-                    <div class="col-lg-2 col-12">
+                    <div class="col-lg-2 col-12" style="margin-bottom: 12px;">
                         <a href="#" style="text-decoration: none;"><div class="card" style="border: none;">
                             <div class="card-img">
                                 <img src="static/img/IMG-banner-index.png" style="width: 100%; height: auto;">
@@ -150,7 +150,7 @@
                             </div>
                         </div></a>
                     </div>
-                    <div class="col-lg-2 col-12">
+                    <div class="col-lg-2 col-12" style="margin-bottom: 12px;">
                         <a href="#" style="text-decoration: none;"><div class="card" style="border: none;">
                             <div class="card-img">
                                 <img src="static/img/IMG-banner-index.png" style="width: 100%; height: auto;">
@@ -164,7 +164,7 @@
                             </div>
                         </div></a>
                     </div>
-                    <div class="col-lg-2 col-12">
+                    <div class="col-lg-2 col-12" style="margin-bottom: 12px;">
                         <a href="#" style="text-decoration: none;"><div class="card" style="border: none;">
                             <div class="card-img">
                                 <img src="static/img/IMG-banner-index.png" style="width: 100%; height: auto;">
@@ -178,7 +178,7 @@
                             </div>
                         </div></a>
                     </div>
-                    <div class="col-lg-2 col-12">
+                    <div class="col-lg-2 col-12" style="margin-bottom: 12px;">
                         <a href="#" style="text-decoration: none;"><div class="card" style="border: none;">
                             <div class="card-img">
                                 <img src="static/img/IMG-banner-index.png" style="width: 100%; height: auto;">
@@ -192,7 +192,7 @@
                             </div>
                         </div></a>
                     </div>
-                    <div class="col-lg-2 col-12">
+                    <div class="col-lg-2 col-12" style="margin-bottom: 12px;">
                         <a href="#" style="text-decoration: none;"><div class="card" style="border: none;">
                             <div class="card-img">
                                 <img src="static/img/IMG-banner-index.png" style="width: 100%; height: auto;">
@@ -238,21 +238,21 @@
                     </div>
                 </div>
                 <div class="row" style="padding: 10px;">
-                    <div class="col-lg-3 col-12">
+                    <div class="col-lg-3 col-12" style="margin-bottom: 12px;">
                         <div class="card">
                             <div class="contenido-card">
                                 <a href="#"><img src="static/img/IMG-banner-index2.jpg" style="width: 100%;"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-12">
+                    <div class="col-lg-3 col-12" style="margin-bottom: 12px;">
                         <div class="card">
                             <div class="contenido-card">
                                 <a href="#"><img src="static/img/IMG-banner-index2.jpg" style="width: 100%;"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-12">
+                    <div class="col-lg-3 col-12" style="margin-bottom: 12px;">
                         <div class="card">
                             <div class="contenido-card">
                                 <a href="#"><img src="static/img/IMG-banner-index2.jpg" style="width: 100%;"></a>
@@ -282,7 +282,7 @@
                 </div>
             </div>
         </section>
-        <br><br>
+        <br><br><br><br><br><br><br>
     </main>
     
 
