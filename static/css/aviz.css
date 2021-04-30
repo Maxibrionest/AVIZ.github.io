@@ -3,7 +3,8 @@
     left: 0;
 }
 body{
-    overflow-x: hidden;
+    width: 100% !important;
+    max-width: 100% !important;
 }
 header{
     background-color: black; 
@@ -50,6 +51,7 @@ main .banner-index{
 }
 .contenido-index .contenedor-populares .contenido-populares .fila-popular{
     height: 26.5vh; 
+    margin: 0 !important;
     background-color: white;
     border: 2px solid black;
     color: black;
