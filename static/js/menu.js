@@ -4,7 +4,7 @@ function abrirMenu(){
     var btn_close_menu = document.getElementById("btn-close-menu");
 
     btn_menu.addEventListener("click", function(e){
-        menu.style.top = "55px";
+        menu.style.top = "60px";
         menu.style.transition = ".4s ease all";        
     });
     btn_close_menu.addEventListener("click", function(e){
