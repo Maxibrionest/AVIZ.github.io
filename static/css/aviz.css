@@ -54,6 +54,7 @@ main .banner-index{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: center top;
+    transition: .3s ease all;
 }
 main .banner-index .postNavbar{
     font-family: Copperplate, Copperplate Gothic Light, fantasy; 
@@ -158,6 +159,7 @@ main .banner-index .fila-banner .subtitle-banner{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: center top;
+    transition: .3s ease all;
 }
 .contenedor-bak4nime{
     width: 100%; 
@@ -167,6 +169,7 @@ main .banner-index .fila-banner .subtitle-banner{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: center top;
+    transition: .3s ease all;
 }
 .btn-info-index{
     border: none; 
@@ -215,7 +218,7 @@ main .banner-index .fila-banner .subtitle-banner{
     }
     .menu{
             left: 4%;
-            background-color: rgb(0, 0, 0,0.940); 
+            background-color: rgb(0, 0, 0,0.970); 
     }
     main .banner-index{
         background-size: cover;
