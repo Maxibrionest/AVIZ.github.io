@@ -182,10 +182,10 @@ main .banner-index .fila-banner .subtitle-banner{
     color: white;
     transition: .3s ease all;
 }
-.contenedor-mangas-index .card img{
+.contenedor-estrenos-index .card img{
     transition: .3s ease all;
 }
-.contenedor-mangas-index .card img:hover{
+.contenedor-estrenos-index .card img:hover{
     transform: scale(1.03);
     transition: .3s ease all;
 }
@@ -271,19 +271,16 @@ main .banner-index .fila-banner .subtitle-banner{
     .contenedor-nuevos .title-recientes{
         font-size: 18px;
     }
-    .contenedor-mangas-index h4{
+    .contenedor-estrenos-index h4{
         font-size: 18px !important;
     }
-    .contenedor-mangas-index input{
+    .contenedor-estrenos-index input{
         width: 80% !important;
         float: left !important;
         margin: 10px 0px 10px 0px !important;
     }
-    .contenedor-mangas-index button{
+    .contenedor-estrenos-index button{
         margin: 10px 0px 10px 0px !important;
-    }
-    .contenedor-bak4nime{
-        background-size: auto !important; background-position: center bottom;
     }
     .br1, .br2, .br3{
         display: none;
